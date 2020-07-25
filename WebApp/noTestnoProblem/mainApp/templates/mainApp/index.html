@@ -1,0 +1,18 @@
+{% extends "mainApp/base.html"%}
+
+{% block content%}
+<div class="text-center">
+    <h1 class="text-center" id="mpTitle">Covid-19 Kinda Sucks</h1>
+    <p class="text-center text-wrap" id="abText">In today’s world, Covid-19 has emerged as one of the greatest problems for the world to solve. With the situation looking more and more grim in certain countries, testing is becoming increasingly important. But what can you do if you can’t get a test? Pharmacies and hospitals prioritize their patients that are in critical danger or show strong symptoms to get the tests. Our machine learning model utilizes the power of tensorflow to make a prediction on if a patient has Covid-19 or not, based on CT scan data and symptoms. Although not as accurate, it might be the difference between life and death if you cannot get a real test. Click the button below to enter in your data and get started.</p>
+</div>
+<button class="btn btn-dark btn-block mx-auto d-block text-center" id="diagnoseBtn" onclick = "formLoad()">Diagnose</button>
+<div class="legalese">
+    <p>DO NOT TRUST US WE ARE DUMMY HIGHSCHOOLERS</p>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+
+</div>
+{% endblock content%}

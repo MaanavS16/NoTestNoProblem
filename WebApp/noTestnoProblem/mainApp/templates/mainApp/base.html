@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>No Test No Problem -- {{ pageName }}</title>
+    <link rel="shortcut icon" href="{% static "mainApp/img/logo.png" %}">
+    <script src="{% static "mainApp/js/main.js" %}" type="text/javascript"></script>
+    <link href="{% static "mainApp/css/style.css"%}" rel="stylesheet">
+    <script type="text/javascript" src="{% static "mainApp/js/bootstrap.js"%}"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbg navbar-fixed-top">
+          <a class="navbar-brand" href="#"><img src="{% static "mainApp/img/logosmol.png"%}" width="80px" height="80px"></a>
+          <h3 class="navbar-brand text-left" href="index.html">No Test No Problem</h3>
+          <button class="navbar-toggler black" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id = "navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="form.html">Form</a>
+                  </li>
+  <!--                <li calss="nav-item active">-->
+  <!--                    <a class="nav-link" href="l">a</a>-->
+  <!--                </li>-->
+              </ul>
+          </div>
+      </nav>
+
+    {% block content %} {% endblock %}
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
