@@ -46,6 +46,9 @@ p{
     transform: translateY(-100%);
 }
 .legalese{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
     background-color: #302323;
     color: white;
 }
