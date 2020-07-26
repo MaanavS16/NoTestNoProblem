@@ -1,6 +1,6 @@
 # NoTestNoProblem
 A link to our devpost submission can be found here: https://devpost.com/software/no-test-no-problem
-![](heatmap.png)
+![](website.jpg)
 ## Inspiration
 With COVID-19 tests being carefully rationed out and there being multiple scarcities, patients may not have access to a traditional test. Our software can diagnose a patient purely on a CT scan, eliminating the need for single use tests.
 ## What it does
