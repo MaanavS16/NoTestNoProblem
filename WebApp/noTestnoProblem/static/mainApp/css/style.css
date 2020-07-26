@@ -1,7 +1,45 @@
+#hWork{
+    position:fixed;
+    bottom:0px;
+    width: 60%;
+    left: 20%;
+    background-color: #E54B4B;
+    margin-bottom: 0rem;
+    border-radius: 1.5rem;
+}
+#inputJumboFile{
+    margin: 2rem;
+    margin-bottom: 0rem;
+    width:38%!important;
+    float:left;
+    background-color: #ffc1a8;
+    border-radius: 1.5rem;
+
+}
+#inputJumboText{
+    margin-bottom: 0rem;
+    /*width:100%!important;*/
+    /*float:right;*/
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #ffc1a8;
+    border-radius: 0rem;
+}
+
+#uploadRegion{
+  left: 50%;
+}
 .navbg{
     background-color:#b0f5f3;
 
 }
+
+#modelTable{
+    width: 100%;
+    margin:auto;
+}
+
 .navbar-brand{
     color: black!important;
     font-size: 150%!important;
@@ -15,7 +53,7 @@ html{
     scroll-behavior: smooth;
     width: 100%;
     overflow-x: hidden!important;
-    overflow-y: hidden!important;
+    /*overflow-y: hidden!important;*/
 }
 #mpTitle{
     padding-top: 20px;
